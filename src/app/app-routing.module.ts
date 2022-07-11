@@ -4,6 +4,7 @@ import { HeaderComponent } from "./components/template/header/header.component";
 import { HomeComponent } from "./components/template/home/home.component";
 import { CadastroComponent } from "./components/template/cadastro/cadastro.component";
 import { AdicionarComponent } from "./components/template/adicionar/adicionar.component";
+import { ChatComponent } from "./components/template/chat/chat.component";
 const routes: Routes = [
   {
     path: "",
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
     path: "adicionar",
     component: AdicionarComponent,
+  },
+  {
+    path: "chat",
+    component: ChatComponent,
   },
 ];
 

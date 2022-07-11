@@ -14,8 +14,16 @@
 .header .h2 {
   font: normal normal 600 0.875rem/2rem "Poppins", sans-serif;
   font-size: 2rem;
-  color: #0c0b0b;
+  height: 100%;
+  margin: 0%;
+  display: flex;
+  align-items: center;
   margin-left: 5%;
+}
+
+.header .h2 a {
+  color: #0c0b0b;
+  text-decoration: none;
 }
 
 .header .perfil-user {
@@ -28,9 +36,11 @@
 }
 
 .header .perfil-user p {
-  text-align: center;
+  height: 100%;
+  margin: 0;
   font-size: 1rem;
   display: flex;
+  align-items: center;
 }
 
 main header {
@@ -128,6 +138,7 @@ main header a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .dados .options a {
   text-decoration: none;
@@ -137,6 +148,10 @@ main header a {
   color: #f54a48;
 }
 
-.dados .options .chat {
+.dados .options p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
   color: #0c0b0b;
 }

@@ -12,6 +12,10 @@ form h1 {
   font: normal normal 600 2.375rem/2.85rem "Poppins", sans-serif;
   color: #3c3c3c;
 }
+form h1 a {
+  color: #3c3c3c;
+  text-decoration: none;
+}
 
 form .formulario {
   display: flex;

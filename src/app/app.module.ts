@@ -10,8 +10,9 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { HomeComponent } from './components/template/home/home.component';
 import { CadastroComponent } from './components/template/cadastro/cadastro.component';
 import { AdicionarComponent } from './components/template/adicionar/adicionar.component';
+import { ChatComponent } from './components/template/chat/chat.component';
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, CadastroComponent, AdicionarComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, CadastroComponent, AdicionarComponent, ChatComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

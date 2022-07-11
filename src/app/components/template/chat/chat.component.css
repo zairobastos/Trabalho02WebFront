@@ -1,0 +1,239 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+  height: 80px;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #fbfcff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+.header .h2 {
+  font: normal normal 600 0.875rem/2rem "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #0c0b0b;
+  height: 100%;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.header .h2 a {
+  color: #0c0b0b;
+  text-decoration: none;
+}
+
+.header .perfil-user {
+  display: flex;
+  height: 100%;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+
+.header .perfil-user p {
+  height: 100%;
+  margin: 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.contatos {
+  display: flex;
+  position: absolute;
+  margin-top: 140px;
+  flex-direction: row;
+  width: 90%;
+  margin-left: 5%;
+  height: 10%;
+}
+
+.contatos .contato {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background: #ffffff;
+  border: 2px solid #f3f4f7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  justify-content: flex-start;
+  height: 300px;
+}
+
+.contatos .contato figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.contatos .contato figure img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.dados {
+  padding: 5px 16px;
+  height: 100%;
+}
+.dados h3 {
+  font: normal normal 600 0.875rem/1.25rem "Poppins", sans-serif;
+  font-size: 1.25rem;
+  color: #0c0b0b;
+  margin: 0;
+}
+.dados .options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dados .options a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #f54a48;
+}
+
+.dados .options .chat {
+  color: #0c0b0b;
+}
+
+.chat {
+  width: 75%;
+  margin-left: 5%;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+  height: 500px;
+  max-height: 500px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chat .chat1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: scroll;
+  height: 82%;
+  max-height: 82%;
+  border-radius: 10px;
+  background-color: #f3f4f7;
+  width: 100%;
+  padding: 20px 0px;
+  gap: 4px;
+}
+.chat .chat1 p {
+  display: flex;
+  height: 100%;
+  margin-bottom: 10px;
+  font: 500 normal normal 1rem/1.25rem "Poppins", sans-serif;
+}
+.chat .chat1 .minha {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 2%;
+  margin-bottom: 10px;
+}
+.chat .chat1 .minha::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid #f54a48;
+  border-top: 0px solid transparent;
+  border-bottom: 10px solid transparent;
+  margin: 0;
+}
+.chat .chat1 .sua {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 2%;
+  margin-bottom: 10px;
+}
+.chat .chat1 .sua::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 10px solid #202c33;
+  border-top: 0px solid transparent;
+  border-bottom: 10px solid transparent;
+  margin: 0;
+}
+.chat .chat1 .minha p {
+  color: #fff;
+  height: 100%;
+  background-color: #f54a48;
+  max-width: 30%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 5px 10px;
+  justify-content: flex-end;
+  border-radius: 3px;
+  border-top-right-radius: 0;
+  text-align: right;
+}
+
+.chat .chat1 .sua p {
+  color: #fff;
+  height: 100%;
+  background-color: #202c33;
+  max-width: 30%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 5px 10px;
+  justify-content: flex-start;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  text-align: left;
+}
+
+.chat form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+form input {
+  font: normal normal 400 0.8125rem/0.85rem "Poppins", sans-serif;
+  padding: 0.625rem 0.9375rem;
+  background-color: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  width: 94%;
+}
+form .input {
+  width: 100%;
+}
+
+input::placeholder {
+  color: #3c3c3c;
+}
+
+form button {
+  background-color: #f54a48;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  padding: 0.3125rem 0.9375rem;
+  width: 100%;
+}
